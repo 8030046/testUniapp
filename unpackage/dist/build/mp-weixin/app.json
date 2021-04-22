@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/hiv/HivHome/HivHome",
+    "pages/my/my",
+    "pages/hiv/details",
+    "pages/phoneme/phoneme",
+    "pages/community/community"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8",
+    "rpxCalcMaxDeviceWidth": 960,
+    "rpxCalcBaseDeviceWidth": 375,
+    "rpxCalcIncludeWidth": 750
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#0EBCC7",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/img/首页-选中.png",
+        "selectedIconPath": "static/img/首页-选中 (1).png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/hiv/HivHome/HivHome",
+        "iconPath": "static/img/信息.png",
+        "selectedIconPath": "static/img/信息 (1).png",
+        "text": "信息"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "static/img/我们.png",
+        "selectedIconPath": "static/img/我们 (1).png",
+        "text": "我们"
+      }
+    ]
+  },
+  "permission": {},
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

@@ -60,19 +60,19 @@
 		"backgroundColor": "#ffffff",
 		"list": [{
 				"pagePath": "pages/index/index",
-				"iconPath": "static/img/首页-选中.png",
-				"selectedIconPath": "static/img/首页-选中 (1).png",
+				"iconPath": "static/img/syxz.png",
+				"selectedIconPath": "static/img/syxz1.png",
 				"text": "首页"
 			}, {
 				"pagePath": "pages/hiv/HivHome/HivHome",
-				"iconPath": "static/img/信息.png",
-				"selectedIconPath": "static/img/信息 (1).png",
+				"iconPath": "static/img/xx.png",
+				"selectedIconPath": "static/img/xx1.png",
 				"text": "信息"
 			},
 			{
 				"pagePath": "pages/my/my",
-				"iconPath": "static/img/我们.png",
-				"selectedIconPath": "static/img/我们 (1).png",
+				"iconPath": "static/img/wm.png",
+				"selectedIconPath": "static/img/wm1.png",
 				"text": "我们"
 			}
 		]
