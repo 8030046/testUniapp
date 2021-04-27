@@ -1,0 +1,38 @@
+{
+    "name": "Face",
+    "id": "ST-Face",
+    "version": "9.0",
+    "description": "人脸核身",
+    "_dp_type": "nativeplugin",
+    "_dp_nativeplugin": {
+        "ios": {
+            "plugins": [
+                {
+                    "type": "module",
+                    "name": "ST-Face",
+                    "class": "DCFaceModel"
+                }
+            ],
+            "frameworks": [
+                "libresolv.tbd"
+            ],
+            "resources": [
+                "authsdk.bundle",
+                "face_shape.ref",
+                "ULSFaceTrackerAssets.bundle",
+                "ULSGPUAssets.bin"
+            ],
+            "integrateType": "library"
+        },
+        "android": {
+            "plugins": [
+                {
+                    "type": "module",
+                    "name": "ST-Face",
+                    "class": "com.example.athree_face.FaceWXModule"
+                }
+            ],
+            "integrateType": "aar"
+        }
+    }
+}

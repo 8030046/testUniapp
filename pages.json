@@ -39,6 +39,12 @@
 			"style": {
 				"navigationBarTitleText": "社区图片"
 			}
+		},
+		{
+			"path": "pages/function/facerecognition",
+			"style": {
+				"navigationBarTitleText": "人脸识别"
+			}
 		}
 	],
 	"globalStyle": {

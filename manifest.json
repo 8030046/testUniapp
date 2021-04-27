@@ -110,6 +110,20 @@
                     "pid" : "",
                     "parameters" : {}
                 }
+            },
+            "ST-Face" : {
+                "__plugin_info__" : {
+                    "name" : "Face",
+                    "description" : "人脸核身",
+                    "platforms" : "Android,iOS",
+                    "url" : "",
+                    "android_package_name" : "",
+                    "ios_bundle_id" : "",
+                    "isCloud" : false,
+                    "bought" : -1,
+                    "pid" : "",
+                    "parameters" : {}
+                }
             }
         }
     },
